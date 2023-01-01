@@ -1,7 +1,7 @@
 % Callback function for show image button
 function showImage()
 	% Load image
-	img = imread('icon.png');
+	img = imread('image.jpg');
 
 	% Display image and grayscale version
 	subplot(1, 2, 1);
