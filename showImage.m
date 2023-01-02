@@ -1,5 +1,5 @@
 % Callback function for show image button
-function showImage()
+function showImage(hObject, eventdata)
 	% Load image
 	img = imread('image.jpg');
 
